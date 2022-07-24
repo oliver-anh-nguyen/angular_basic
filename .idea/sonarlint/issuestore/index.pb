@@ -1,7 +1,37 @@
 
 F
 src/app/onsale.pipe.ts,1/4/14fe99cc5743e782c7116be55a72c58e2e8ea8e3
-P
- src/app/home/home.component.scss,8/7/87183d904eae5447ff71c47d0be8bdcbe6be844d
 >
 src/index.html,5/c/5c975582791da6f060261188096d6aad85db6e09
+P
+ src/app/about/about.component.ts,2/6/26e44e6594a5d236a044c03d309df3c0cf1962ec
+R
+"src/app/about/about.component.html,2/0/20746c4541940a530a6b41874246a3e6d99998ef
+Z
+*src/app/Directives/high-light.directive.ts,c/e/ce0f64c86497bf445f6182fc6aa848b004170bb2
+N
+src/app/home/home.component.ts,8/6/86792ff6839bbf45b8e8331bc49d3712dc36eba9
+R
+"src/app/Services/common.service.ts,9/9/99adac3c5d002f86658bda873d379714d9ed9148
+`
+0src/app/reactive-form/reactive-form.component.ts,5/f/5ff5af266b49b019f3d614e2733eb5eb87abe855
+n
+>src/app/template-driven-form/template-driven-form.component.ts,6/0/6016511895df7b20a856f1acd5ff5c5acef4c606
+p
+@src/app/template-driven-form/template-driven-form.component.html,9/8/989dcee9a7d70ea09aa55e74ec3b61f4fe6472b7
+F
+JsonServer/routes.json,9/2/92dcc6765776e8ca8bbf28ea1c01637f01d882dc
+<
+package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
+G
+JsonServer/commands.txt,e/a/eac51a7ec54961d9672ef1b0e769a3cf4551383b
+b
+2src/app/reactive-form/reactive-form.component.html,3/4/3410cfd5f7d5b0c54a151076413c8c1f81e94c9b
+P
+ src/app/home/home.component.scss,8/7/87183d904eae5447ff71c47d0be8bdcbe6be844d
+P
+ src/app/home/home.component.html,e/9/e933d99512b1bbc369b551f5b0f3431ed8fc131b
+X
+(src/app/get-data/get-data.component.html,3/7/37b40b5a8f827535d6d158321f6ddc38b565f726
+X
+(src/app/get-data/get-data.component.scss,6/8/680e307b633746888685d75a631663ee4d61552b
