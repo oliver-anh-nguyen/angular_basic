@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { FormsModule } from "@angular/forms";
 import { OnsalePipe } from './onsale.pipe';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HighLightDirective } from './Directives/high-light.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HomeComponent,
     AboutComponent,
     OnsalePipe,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HighLightDirective
   ],
   imports: [
     BrowserModule,

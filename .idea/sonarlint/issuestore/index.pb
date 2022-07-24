@@ -13,9 +13,3 @@ E
 src/app/app.module.ts,0/2/02c004b4329a0d99c45abb61a30dadfde61ecf5d
 J
 src/app/app.component.html,0/6/06895b2dfff011115a8eded7e3fad29788965566
-M
-src/app/app-routing.module.ts,6/f/6fd35c988c6ab19d90be440792fa8c817dd8dc67
-R
-"src/app/about/about.component.html,2/0/20746c4541940a530a6b41874246a3e6d99998ef
-P
- src/app/about/about.component.ts,2/6/26e44e6594a5d236a044c03d309df3c0cf1962ec
