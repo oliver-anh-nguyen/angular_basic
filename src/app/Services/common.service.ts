@@ -10,4 +10,8 @@ export class CommonService {
   public power(n: number): number {
     return n * n;
   }
+
+  public submitData(data: any): void {
+    console.log('send data to server. data = ', data);
+  }
 }
