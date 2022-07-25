@@ -16,7 +16,8 @@ import { HttpClientModule} from "@angular/common/http";
 import { PostDataComponent } from './post-data/post-data.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
-
+import { QrViewComponent } from './qr-view/qr-view.component';
+import { QRCodeModule } from 'angular2-qrcode';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,14 +31,16 @@ import { ChildComponent } from './child/child.component';
     GetDataComponent,
     PostDataComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    QrViewComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    QRCodeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
