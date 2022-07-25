@@ -1,0 +1,5 @@
+<p>Here is parent component</p>
+<p>{{message}}</p>
+<button (click)="giveMoney()">Give Money</button>
+<app-child #child1 name="Seoul" (call)="sayHello($event)"></app-child>
+<app-child #child2 name="NewYork" (call)="sayHello($event)"></app-child>
