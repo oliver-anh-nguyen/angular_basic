@@ -10,17 +10,21 @@ import {PostDataComponent} from "./post-data/post-data.component";
 import {ParentComponent} from "./parent/parent.component";
 import {QRCodeComponent} from "angular2-qrcode";
 import {QrViewComponent} from "./qr-view/qr-view.component";
+import {LoginComponent} from "./login/login.component";
+import {AuthGuard} from "./Guard/auth.guard";
 
 const routes: Routes = [
-  { path: 'about', component: AboutComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'template', component: TemplateDrivenFormComponent},
-  { path: 'reactive', component: ReactiveFormComponent},
-  { path: 'get-data', component: GetDataComponent},
-  { path: 'post-data', component: PostDataComponent},
-  { path: 'parent', component: ParentComponent},
-  { path: 'qrview', component: QrViewComponent},
-  // { path: '', component: HomeComponent },
+  { path: 'about', component: AboutComponent, canActivate: [AuthGuard] },
+  { path: 'home', component: HomeComponent, canActivate: [AuthGuard]},
+  { path: 'template', component: TemplateDrivenFormComponent, canActivate: [AuthGuard]},
+  { path: 'reactive', component: ReactiveFormComponent, canActivate: [AuthGuard]},
+  { path: 'get-data', component: GetDataComponent, canActivate: [AuthGuard]},
+  { path: 'post-data', component: PostDataComponent, canActivate: [AuthGuard]},
+  { path: 'parent', component: ParentComponent, canActivate: [AuthGuard]},
+  { path: 'qrview', component: QrViewComponent, canActivate: [AuthGuard]},
+  { path: 'login', component: LoginComponent},
+   { path: '', component: LoginComponent },
+  //{path:'**', redirectTo: ''}
   { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
 ];
 

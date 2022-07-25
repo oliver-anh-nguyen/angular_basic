@@ -1,7 +1,7 @@
 <h1>Angular Router App</h1>
 <!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
 <nav>
-  <ul>
+  <ul *ngIf="isLoggedIn$ | async as isLoggedIn">
     <li><a routerLink="/about" routerLinkActive="active" >About</a></li>
     <li><a routerLink="/home" routerLinkActive="active" >Home</a></li>
     <li><a routerLink="/template" routerLinkActive="active" >Template</a></li>
@@ -10,6 +10,7 @@
     <li><a routerLink="/post-data" routerLinkActive="active" >Post Data</a></li>
     <li><a routerLink="/parent" routerLinkActive="active" >Parent</a></li>
     <li><a routerLink="/qrview" routerLinkActive="active" >QR Code</a></li>
+    <button (click)="logout()" *ngIf="isLoggedIn">Logout</button>
   </ul>
 </nav>
 <!-- The routed views render in the <router-outlet>-->

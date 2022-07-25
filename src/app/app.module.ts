@@ -18,6 +18,7 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { QrViewComponent } from './qr-view/qr-view.component';
 import { QRCodeModule } from 'angular2-qrcode';
+import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +33,8 @@ import { QRCodeModule } from 'angular2-qrcode';
     PostDataComponent,
     ParentComponent,
     ChildComponent,
-    QrViewComponent
+    QrViewComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
