@@ -1,5 +1,16 @@
-QR Code: <br/>
-<input type="text"(change)="change($event)"/>
-<br/>
-<br/>
+QR Code: <br />
+Base URL:
+<input
+  type="text"
+  (change)="changeBase($event)"
+  style="width: 400px"
+  [value]="baseInfo"
+/>
+<br />
+Name: <input type="text" (change)="changeName($event)" style="width: 400px" />
+<br />
+Age: <input type="text" (change)="changeAge($event)" style="width: 100px" />
+<br />
+<p>{{ qrInfo }}</p>
+<br />
 <qr-code [value]="qrInfo" [size]="width"></qr-code>
