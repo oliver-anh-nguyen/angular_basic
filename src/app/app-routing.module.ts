@@ -23,9 +23,8 @@ const routes: Routes = [
   { path: 'parent', component: ParentComponent, canActivate: [AuthGuard]},
   { path: 'qrview', component: QrViewComponent, canActivate: [AuthGuard]},
   { path: 'login', component: LoginComponent},
-   { path: '', component: LoginComponent },
-  //{path:'**', redirectTo: ''}
-  { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
+  { path: '', component: LoginComponent },
+  {path:'**', redirectTo: 'login', pathMatch: 'full'}// Wildcard route for a 404 page
 ];
 
 @NgModule({
